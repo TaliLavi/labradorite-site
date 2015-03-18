@@ -16,6 +16,10 @@ p.small {
     font-size: 16px;
 }
 
+#formula {
+    font-size: 50px;
+}
+
 a,
 a:hover,
 a:focus,
@@ -35,6 +39,11 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+
+section #wikipediaTitle {
+    color: #2c3e50;
+}
+
 
 hr.star-light,
 hr.star-primary {
@@ -184,6 +193,7 @@ section.success {
     background: #18bc9c;
 }
 
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -192,6 +202,12 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+section.wikipedia {
+    text-align: center;
+    color: #ffffff;
+    background: #ffffff;
 }
 
 #portfolio .portfolio-item {
@@ -448,3 +464,9 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+/*why won't this work?*/
+/*td:first-child {*/
+    /*background-color: yellow;*/
+    /*font-weight: bold;*/
+/*}*/
